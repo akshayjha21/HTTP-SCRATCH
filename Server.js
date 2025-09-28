@@ -11,7 +11,7 @@
 // })
 
 
-import net from 'net'
+// import net from 'net'
 import fs from 'fs'
 import os from 'os'
 import {URL} from 'url'
@@ -33,5 +33,5 @@ const server=net.createServer((socket)=>{
     })
 })
 server.listen(PORT,HOST,()=>{
-    Console.log(`server is listening on ${HOST}/${PORT}`)
+    console.log(`server is listening on ${HOST}/${PORT}`)
 })
